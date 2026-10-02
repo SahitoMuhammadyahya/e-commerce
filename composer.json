@@ -1,0 +1,24 @@
+{
+    "name": "essencestore/catalog-foundation",
+    "description": "Essence Store - Men's Perfume E-Commerce Catalog Data Foundation (Sprint 2)",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2",
+        "ext-pdo": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "EssenceStore\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EssenceStore\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/run_tests.php"
+    }
+}
